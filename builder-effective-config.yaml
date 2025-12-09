@@ -1,0 +1,22 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.lyricsstatusfordiscord.app
+productName: Lyrics Status for Discord
+files:
+  - filter:
+      - static
+      - config
+      - manual_lyrics/**/*
+      - settings
+      - package
+icon: static/lyricsstatusfordiscord.ico
+win:
+  target: nsis
+  icon: static/lyricsstatusfordiscord.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+electronVersion: 39.2.3
