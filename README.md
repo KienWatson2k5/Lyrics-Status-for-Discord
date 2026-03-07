@@ -47,7 +47,7 @@ Go to the **Settings** tab and enter the following information:
 * **Discord Authentication:** Log in to your Discord account, and the system will automatically recognise it.
 * **Spotify/Last.fm:** Enter the **Client ID** and **Client Secret** (for Spotify) and the **API Key** (for Last.fm). **(Note: You will need to register a Last.fm/Spotify application to obtain these keys.)**.
 * **YT Music Server API (External):** If you use the YT Music Desktop source, follow these steps:
-    1.  Download YT Music Desktop and extract the .rar file via this link: https://shorturl.at/no5Gu.
+    1.  Download YT Music Desktop and extract the .rar file via this link: `https://shorturl.at/iqNjN`.
     2.  After extraction, run Youtube Music.exe.
     3.  When you open Youtube Music, look on the left side corner for the "plugins" section, select it, and find "API Server [Beta]".
     4.  Select both "Hostname" and "Port" and create your own private local server.
